@@ -1,0 +1,28 @@
+.home {
+    background-image: url(../images/photo-1673322882205-add3ff85764b.avif);
+    background-size: cover;
+    height: 100vh;
+}
+
+.content {
+    background-color: #B080804D;
+    backdrop-filter: blur(8px);
+    width: 70%;
+}
+
+.content h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 70.24px;
+    letter-spacing: 20%;
+    color: black;
+}
+
+.content p {
+    font-family: "Akshar", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 69.5px;
+    text-align: center;
+}

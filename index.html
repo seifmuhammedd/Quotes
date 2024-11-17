@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Akshar:wght@300..700&family=Bebas+Neue&family=New+Amsterdam&family=Orbit&family=Pacifico&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="home d-flex justify-content-center align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row content py-5 rounded-3 mx-auto px-4 d-flex justify-content-center align-items-center flex-column">
+                        <h1 class="col-md-12 align-self-start mt-3 px-0">Quote of the Day</h1>
+                        <div class=" col-md-12inner d-flex flex-column my-5 px-5 w-100">
+                            <p class="quote lead text-white" id="quote"></p>
+                            <span class="author align-self-end me-5 pe-3" id="authorName"></span>
+                        </div>
+                        <button class="col-md-2 btn btn-success align-self-end" onclick="generateQuote()">New
+                            Quote</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
